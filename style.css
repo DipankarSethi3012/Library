@@ -1,0 +1,108 @@
+body{
+    background-image: url(https://images.pexels.com/photos/2761017/pexels-photo-2761017.jpeg?auto=compress&cs=tinysrgb&w=600);
+    color: beige;
+    background-repeat: no-repeat;
+    background-size: 1480px 2000px;
+    font-family: cursive;
+}
+.left{
+    display: block;
+    position: absolute;
+    top: 20px;
+    
+}
+.left img{
+    background-color: transparent;
+    filter: invert(100%);
+    margin-left: 40px;
+}
+.left h2{
+    margin: 0px;
+    padding: 0px;
+}
+.mid{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+.right{
+    position: absolute;
+    display: block;
+    text-align: right;
+    top: 20px;
+    left: 1370px;
+}
+.mid ul a{
+    color: beige;
+    text-decoration: none;
+}
+.mid ul{
+   list-style: none;
+   display: inline-block;
+}
+.mid ul li{
+    display: inline-block;
+    padding: 8px;
+}
+.mid ul a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.plogo{
+    transition: transform.2s;
+    filter: invert(100%);
+    margin: 3px;
+    cursor: pointer;
+}
+.plogo:hover{
+    transform:scale(1.5);
+}
+.section{
+    margin-top: 120px;
+    text-align: justify;
+}
+.str{
+    margin-top: 10px;
+}
+.section ul{
+    list-style: lower-roman;
+}
+.form{
+    width: 400px;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 20px;
+}
+.form input{
+    font-family: cursive;
+    border-radius: 10px;
+    margin: 4px;
+}
+.formheading{
+    text-align: center;
+    text-decoration: underline white;
+}
+.submit{
+    margin-left: 100px;
+}
+.sec img{
+    height: 300px;
+    width: 340px;
+    border: 2px solid white;
+    margin: 8px;
+    margin-left: 6px;
+}
+.sec h2{
+    text-align: center;
+    text-decoration:underline;
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+}
+.footer pre{
+    margin-top: 50px;
+    text-align: center;
+}
+
